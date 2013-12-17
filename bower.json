@@ -1,0 +1,54 @@
+{
+  "name": "gallery-test",
+  "version": "0.0.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests",
+    "build"
+  ],
+  "dependencies": {
+    "lodash": "2.2.1",
+    "backbone": "1.1.0",
+    "jquery": "1.10.2",
+    "bootstrap.css": "2.3.2",
+    "chaplin": "0.11.3",
+    "jcarousel": "72d4dd82eca61d76e0ee38e8666f85a3290ff43e"
+  },
+  "overrides": {
+    "lodash": {
+      "dependencies": {
+        "jquery": ""
+      }
+    },
+    "backbone": {
+      "main": [
+        "backbone.js"
+      ],
+      "dependencies": {
+        "lodash": "",
+        "jquery": ""
+      }
+    },
+    "jquery": {
+      "main": [
+        "jquery.js"
+      ]
+    },
+    "bootstrap.css": {
+      "main": [
+        "js/bootstrap.js",
+        "css/bootstrap.css",
+        "css/bootstrap-responsive.css"
+      ],
+      "dependencies": {
+        "jquery": ""
+      },
+      "scripts": []
+    }
+  }
+}

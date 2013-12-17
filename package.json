@@ -1,0 +1,19 @@
+{
+  "name": "gallery-test",
+  "version": "0.0.0",
+  "dependencies": {
+    "javascript-brunch": "1.7.0",
+    "coffee-script-brunch": "1.7.2",
+
+    "css-brunch": "1.7.0",
+
+    "jade-brunch": "1.7.2",
+
+    "uglify-js-brunch": "1.7.3",
+    "clean-css-brunch": "1.7.1",
+
+    "commonjs-require-definition": "0.1.1"
+  },
+  "devDependencies": {},
+  "private": true
+}

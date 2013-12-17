@@ -22,7 +22,7 @@ module.exports = class IndexView extends View
       # This is where we actually connect to items.
       target = connector(item, carouselStage)
       item.on("active.jcarouselcontrol", ->
-        carouselNavigation.jcarousel "scrollIntoView", this
+        carouselNavigation.jcarousel "scrollIntoView", @
         item.addClass "active"
       ).on("inactive.jcarouselcontrol", ->
         item.removeClass "active"
